@@ -8,7 +8,9 @@ Add to **composer.json**:
 
 ```sh
 {
-    "require": {"eugenest/monocfg": "dev-master"}
+    "require": {
+        "eugenest/monocfg": "dev-master"
+    }
 }
 ```
 
