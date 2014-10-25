@@ -7,18 +7,15 @@
 Add to **composer.json**:
 
 ```sh
-"repositories": [
-   {
-     "type": "git",
-     "url": "git://github.com/eugeneset/logger.git"
-   }
-]
+{
+    "require": {"eugenest/monocfg": "dev-master"}
+}
 ```
 
 execute
 
 ```sh
-composer install --no-dev
+composer install
 ```
 
 ##Usage
@@ -58,7 +55,7 @@ $logger->addInfo('test');
     ]
 }
 ```
-Handlers signatures should be compatible with [native] [seldaek/monolog/sources].
+Handlers signatures should be compatible with [natives] [seldaek/monolog/sources].
 
 [seldaek/monolog]:https://github.com/Seldaek/monolog
 [seldaek/monolog/sources]:https://github.com/Seldaek/monolog/tree/master/src/Monolog/Handler
