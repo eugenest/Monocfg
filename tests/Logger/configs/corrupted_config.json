@@ -1,0 +1,4 @@
+{
+    "StreamHandler" : [
+        "../../examples/logs/simple.log"
+    ]

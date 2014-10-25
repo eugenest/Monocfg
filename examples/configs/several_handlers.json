@@ -1,0 +1,21 @@
+{
+    "StreamHandler" : [
+        "logs/simple.log"
+    ],
+    "NativeMailerHandler" : [
+    	"eugene.timofieiev@gmail.com",
+    	"something happens",
+    	"tasks@email.com",
+    	"400"
+    ],
+    "LogEntriesHandler" : [
+    	"kjhdfrg8734g384gu91",
+    	"false"
+    ],
+    "NewRelicHandler" : [
+    	"200",
+    	"false",
+    	"project-prod",
+    	"true"
+    ]
+}
